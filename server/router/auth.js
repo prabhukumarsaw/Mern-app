@@ -7,9 +7,7 @@ const jwt = require('jsonwebtoken');
 require('../db/conn');
 const User = require('../model/userSchema');
 
-router.get('/', (req,res) => {
-    res.send('I am Ready to connect the router js!!');
-});
+
 
 //sign up
 
